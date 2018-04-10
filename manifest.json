@@ -1,4 +1,4 @@
-﻿{
+{
     "@platforms": ["android", "iPhone", "iPad"],
     "id": "H561815A9",/*应用的标识，创建应用时自动生成，勿手动修改*/
     "name": "musicPlayer",/*应用名称，程序桌面图标名称*/
@@ -134,6 +134,114 @@
                     "xxhdpi": ""/*1080P高分屏启动图片，分辨率：1080x1882*/
                 }
             }
-        }
-    }
+        },"ads":{"rp":false,"splash":false,"push":false},"adid":""
+    },
+	"dependencies":{
+		"pages": {
+			"index.html": {
+				"href": "index.html",
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"src/components/header/header.vue",
+				"src/base/song-list/song-list.vue",
+				"dist/static/js/manifest.37a2ecbb1d1b7e6c9ada.js",
+				"src/components/singer/singer.vue",
+				"src/store/mutation-types.js",
+				"src/store/index.js",
+				"src/base/switches/switches.vue",
+				"src/store/actions.js",
+				"package.json",
+				"src/common/js/util.js",
+				"src/common/js/singer.js",
+				"src/base/no-result/no-result@3x.png",
+				"src/base/no-result/no-result.vue",
+				"build/check-versions.js",
+				"src/base/search-box/search-box.vue",
+				"config/dev.env.js",
+				"src/components/search/search.vue",
+				"package-lock.json",
+				"src/base/no-result/no-result@2x.png",
+				"src/components/playlist/playlist.vue",
+				"src/common/fonts/music-icon.eot",
+				"README.md",
+				"src/base/loading/loading.gif",
+				"src/common/js/mixin.js",
+				"src/base/progress-circle/progress-circle.vue",
+				"dist/static/js/app.726e7bd2dfffdcec49de.js.map",
+				"src/common/sass/index.scss",
+				"build/webpack.dev.conf.js",
+				"dist/static/img/no-result@3x.2858208.png",
+				"src/common/js/jsonp.js",
+				"dist/static/css/app.7e5707e928219e3810f1de1463850217.css.map",
+				"src/components/player/player.vue",
+				"src/store/mutations.js",
+				"dist/static/js/vendor.90518f1df1d81b550e1f.js",
+				"src/base/top-tip/top-tip.vue",
+				"dist/static/js/manifest.37a2ecbb1d1b7e6c9ada.js.map",
+				"src/base/list/list.vue",
+				"src/components/header/logo@2x.png",
+				"src/base/progress-bar/progress-bar.vue",
+				"src/base/song-list/second@2x.png",
+				"src/base/song-list/third@3x.png",
+				"src/main.js",
+				"src/common/js/config.js",
+				"src/components/rank/rank.vue",
+				"src/components/tab/tab.vue",
+				"src/components/suggest/suggest.vue",
+				"src/api/config.js",
+				"config/index.js",
+				"src/common/js/dom.js",
+				"src/common/sass/variable.scss",
+				"dist/static/img/music-icon.8a34857.svg",
+				"dist/static/js/app.726e7bd2dfffdcec49de.js",
+				"src/base/confirm/confirm.vue",
+				"src/base/scroll/scroll.vue",
+				"dist/index.html",
+				"src/base/song-list/first@2x.png",
+				"dist/static/js/vendor.90518f1df1d81b550e1f.js.map",
+				"build/utils.js",
+				"src/base/song-list/second@3x.png",
+				"src/components/music-list/music-list.vue",
+				"src/common/sass/mixin.scss",
+				"src/base/loading/loading.vue",
+				"src/router/index.js",
+				"src/common/js/song.js",
+				"src/common/fonts/music-icon.ttf",
+				"src/components/recommend/recommend.vue",
+				"src/components/header/logo@3x.png",
+				"build/logo.png",
+				"src/components/rank-list/rank-list.vue",
+				"build/vue-loader.conf.js",
+				"src/api/rank.js",
+				"src/store/state.js",
+				"src/common/sass/reset.scss",
+				"src/api/song.js",
+				"src/base/slider/slider.vue",
+				"src/api/search.js",
+				"build/build.js",
+				"src/common/fonts/music-icon.woff",
+				"src/App.vue",
+				"config/prod.env.js",
+				"build/webpack.base.conf.js",
+				"src/store/getters.js",
+				"src/base/song-list/third@2x.png",
+				"src/components/add-song/add-song.vue",
+				"src/components/disic/disic.vue",
+				"src/api/singer.js",
+				"src/common/img/default.png",
+				"dist/static/css/app.7e5707e928219e3810f1de1463850217.css",
+				"src/common/js/cache.js",
+				"build/webpack.prod.conf.js",
+				"src/base/search-list/search-list.vue",
+				"src/common/fonts/music-icon.svg",
+				"src/base/song-list/first@3x.png",
+				"src/api/recommend.js",
+				"src/components/singer-detail/singer-detail.vue",
+				"src/common/sass/icon.css"
+			]
+		}
+	}
 }
